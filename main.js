@@ -1,5 +1,6 @@
 const crypto = require('crypto');
-const fs = require('fs')
+const cryptoJs = require('crypto-js');
+
 
 // Cipher
 const password = 'holamundo';
@@ -36,3 +37,8 @@ hmac.on('readable', () => {
 });
 hmac.write('mañana me quiero sentir mejor');
 hmac.end();
+
+
+// Crypto-js
+var SHA256 = require("crypto-js/sha256");
+console.log(SHA256());
