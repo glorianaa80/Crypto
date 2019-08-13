@@ -1,0 +1,22 @@
+{
+  "name": "p",
+  "version": "1.0.0",
+  "description": "Prueba del módulo de Crypto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glorianaa80/Crypto.git"
+  },
+  "author": "Gloriana Angulo Alvarado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glorianaa80/Crypto/issues"
+  },
+  "homepage": "https://github.com/glorianaa80/Crypto#readme",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
